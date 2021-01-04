@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients("com.example.currencyconversionservice")
 @EnableDiscoveryClient
 public class CurrencyConversionServiceApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CurrencyConversionServiceApplication.class, args);
+    }
 }
